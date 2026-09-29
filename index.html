@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <!-- 文字編碼，避免中文顯示亂碼 -->
+  <meta charset="UTF-8">
+
+  <!-- 讓網頁能顯示不同螢幕尺寸 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>我的個人網站</title>
+</head>
+
+<body>
+  <!-- header：網頁的頁首區域 -->
+  <header>
+    <!-- h1：網頁標題 -->
+    <h1>我的個人網站</h1>
+
+    <!-- nav：放置網頁導覽連結 -->
+    <nav>
+      <!-- 連結到目前的首頁 -->
+      <a href="index.html">首頁</a>
+
+      <!-- 連結到同一個資料夾中的 about.html -->
+      <a href="about.html">關於我</a>
+
+      <!-- 連結到外部網站 -->
+      <!-- target="_blank" 代表在新分頁開啟 -->
+      <a
+        href="https://www.tku.edu.tw/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        淡江大學
+      </a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>自我介紹</h2>
+
+      <!-- 圖片 -->
+      <!-- src：圖片檔案的位置 -->
+      <!-- alt：圖片無法顯示時的替代文字 -->
+      <!-- width：設定圖片寬度 -->
+      <img
+        src="c:\Users\kuosh\Downloads\123.jpg"
+        alt="照片"
+        width="200"
+      >
+
+      <!-- p：建立段落 -->
+      <p>
+        大家好，我是淡江大學的學生，
+        目前正在學習網路程式設計。
+      </p>
+
+      <!-- strong：表示重要或需要強調的文字 -->
+      <!-- em：表示語氣上的強調文字 -->
+      <p>
+        我喜歡學習
+        <strong>財務管理</strong>
+        與
+        <em>日文</em>。
+      </p>
+    </section>
+
+    <section>
+      <h2>我的興趣</h2>
+
+      <!-- ul：建立無序清單 -->
+      <ul>
+        <li>看動漫</li>
+        <li>追Vtuber</li>
+        <li>跳舞</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>個人基本資料</h2>
+
+      <ul>
+        <li><strong>星座：</strong>獅子座 </li>
+        <li><strong>MBTI：</strong>INFP (調停者)</li>
+        <li><strong>個人特質：</strong>內心小宇宙豐富、行動力滿滿的理想主義者</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>技能與語言能力</h2>
+
+      <!-- table：建立技能表格 -->
+      <table border="1"> 
+        <!-- caption：設定表格標題 -->
+        <caption>個人能力一覽表</caption>
+
+        <!-- thead：表格的標題區域 -->
+        <thead>
+          <tr>
+            <th scope="col">項目</th>
+            <th scope="col">程度描述</th>
+          </tr>
+        </thead>
+
+        <!-- tbody：表格的資料內容區域 -->
+        <tbody>
+          <tr>
+            <td>日文能力</td>
+            <td>N87 </td>
+          </tr>
+
+          <tr>
+            <td>英文能力</td>
+            <td>普通 (基本日常溝通與閱讀)</td>
+          </tr>
+
+          <tr>
+            <td>程式技能</td>
+            <td>普通 (持續學習)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- div：一般區塊容器，本身沒有特殊語意 -->
+    <div>
+      <h2>更多資訊</h2>
+
+      <!-- 插入連結到 about.html -->
+      <p>
+        <a href="about.html">查看完整自我介紹</a>
+      </p>
+    </div>
+  </main>
+
+  <!-- footer：網頁的頁尾區域 -->
+  <footer>
+    <p>© 2026 我的個人網站</p>
+  </footer>
+</body>
+
+</html>

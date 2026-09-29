@@ -1,0 +1,22 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 95fce3c..5b77d9c 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -5,4 +5,14 @@[m
+ ![alt text](image.png)[m
+ ![alt text](image-2.png)[m
+ ![alt text](image-3.png)[m
+[31m-![alt text](image-4.png)[m
+\ No newline at end of file[m
+[32m+[m[32m![alt text](image-4.png)[m
+[32m+[m
+[32m+[m[32m## Week 3 練習[m
+[32m+[m[32mfile:///C:/Projects/115web_413630129/index.html[m
+[32m+[m[32m![alt text](image-11.png)[m
+[32m+[m[32m![alt text](image-5.png)[m
+[32m+[m[32m![alt text](image-6.png)[m
+[32m+[m[32m![alt text](image-7.png)[m
+[32m+[m[32m![alt text](image-8.png)[m
+[32m+[m[32m![alt text](image-9.png)[m
+[32m+[m[32m![alt text](image-10.png)[m
+\ No newline at end of file[m

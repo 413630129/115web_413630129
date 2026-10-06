@@ -21,16 +21,18 @@ footer {
 }
 
 /* 
-   設定導覽列連結樣式 (後代選擇器)
+   設定導覽列連結樣式 (後代選擇器 + Flexbox 排列)
 */
 nav {
   margin-top: 12px;
+  display: flex;             
+  justify-content: center;   
+  gap: 20px;                 
 }
 
 nav a {
   color: rgb(5, 0, 0);
   text-decoration: none;
-  margin: 0 10px;
 }
 
 nav a:hover {
@@ -51,6 +53,53 @@ h1 {
   color: #440171;
   font-size: 2rem;
   margin: 0;
+}
+
+h2 {
+  color: #3475c0;            
+  border-bottom: 2px solid #3475c0; 
+  padding-bottom: 4px;
+  margin-top: 24px;
+}
+
+/* 內容一般連結 */
+a {
+  color: #440171;            
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 
+   圖片樣式 (設定寬度與圓角)
+*/
+img {
+  max-width: 200px;          
+  height: auto;             
+  border-radius: 12px;       
+}
+
+/* 
+   表格樣式 (設定框線與內邊距)
+*/
+table {
+  border-collapse: collapse; 
+  width: 100%;               
+  margin-top: 12px;
+  background-color: #ffffff; 
+}
+
+th, td {
+  border: 1px solid #3475c0;  
+  padding: 8px 12px;          
+  text-align: left;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 h2 {

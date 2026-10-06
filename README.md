@@ -13,4 +13,4 @@ file:///C:/Projects/115web_413630129/index.html
 
 ## Week 4 練習
 file:///C:/Projects/115web_413630129/index.html
-![v ](image-12.png)
+![alt text](image-12.png)

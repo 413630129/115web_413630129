@@ -1,0 +1,89 @@
+/* 
+   設定整個網頁的基本文字與背景
+*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c5deff;
+  color: #8b5bc6;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* 
+   設定頁首與頁尾
+*/
+header,
+footer {
+  background-color: #3475c0;
+  color: rgb(0, 0, 0);
+  padding: 24px;
+  text-align: center;
+}
+
+/* 
+   設定導覽列連結樣式 (後代選擇器)
+*/
+nav {
+  margin-top: 12px;
+}
+
+nav a {
+  color: rgb(5, 0, 0);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/*
+   設定主要內容區域
+*/
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* 標題樣式 */
+h1 {
+  color: #440171;
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  color: #734fb6;
+  border-bottom: 2px solid#734fb6;
+  padding-bottom: 4px;
+  margin-top: 24px;
+}
+
+/* 一般連結樣式 */
+a {
+  color: #6489d7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 表格基本樣式優化 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 12px;
+  background-color: rgb(255, 243, 243);
+}
+
+th, td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 8px;
+}

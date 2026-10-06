@@ -10,9 +10,7 @@
 ## Week 3 練習
 file:///C:/Projects/115web_413630129/index.html
 ![alt text](image-11.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
-![alt text](image-8.png)
-![alt text](image-9.png)
-![alt text](image-10.png)
+
+## Week 4 練習
+file:///C:/Projects/115web_413630129/index.html
+![v ](image-12.png)
